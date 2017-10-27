@@ -1,0 +1,342 @@
+/* Import font-awesome icons */
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+/* Global */
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+
+    footer .row > div {
+        border-left: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+
+    footer .row > div {
+        border-left: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+button {
+    background: #9e876b;
+    color: #fff;
+    border: 2px solid #a99175;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+/* Navbar */
+
+.navbar-default {
+    background: transparent;
+    padding: 10px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #464b50;
+}
+
+.navbar-brand {
+    background: url(../images/pernik_header.png);
+    width: 92px;
+    height: 39px;
+    display: inline-block;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+    background: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+    color: #9e876b;
+}
+
+.image-fix {
+    width: 100%;
+}
+
+/* Header */
+
+.carousel-caption {
+    margin-top: -20px;
+}
+
+.btn.btn-lg.btn-primary {
+    background: none;
+    border-radius: 5px;
+    border: 2px solid #fff;
+}
+
+.carousel-caption h1 {
+    font-size: 60px;
+    font-weight: 100;
+}
+
+#myCarousel > div > div > div > div > p {
+    background: none;
+}
+
+/* About Pernik Container */
+
+.row-map {
+    padding-bottom: 40px;
+}
+
+div > .about-pernik-header {
+    padding-bottom: 10px;
+    margin-top: -10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000;
+}
+
+div > .about-pernik-header::after {}
+
+div > .about-pernik-desc {
+    letter-spacing: 0.01rem;
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.fa-chevron-circle-right {
+    color: #9f876d;
+}
+
+.col-md-5 > .col-md-12 > p {
+    margin-top: 20px;
+    font-weight: 100;
+}
+
+.row-map p {
+    margin: 0 0 25px 0;
+}
+
+.row-map p span {
+    font-weight: 700;
+    color: #9f876d;
+}
+
+/* Soccer section */
+.soccer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #e6e6e6;
+}
+
+body > main > div > section.soccer > div > div > h2 {
+    text-transform: uppercase;
+    color: #9f876d;
+}
+
+body > main > div > section.soccer > div > div > p {
+    font-style: italic;
+    padding: 30px 0 10px 0;
+}
+
+.surva-pernik {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+body > main > div > section.surva-pernik > div > div > h2 {
+    text-transform: uppercase;
+    color: #9f876d;
+}
+
+body > main > div > section.surva-pernik > div > div > p {
+    font-style: italic;
+    padding: 35px 0 10px 0;
+}
+
+/* Last news section */
+
+.last-news {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #ece6c2;
+}
+
+.last-news > h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.date-top > span:nth-of-type(1) {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.date-top {
+    width: 45px;
+    height: 60px;
+    position: absolute;
+    top: -5px;
+    left: 12px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#dcae9c), to(#564d42));
+    background: linear-gradient(#dcae9c, #564d42);
+    color: #fff;
+    text-align: center;
+}
+
+body > main > div > section.last-news > div > div > img {
+    width: 100%;
+}
+
+body > main > div > section.last-news > div > div > h3 {
+    color: #4a4a4a;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+body > main > div > section.last-news > div > div > button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+body > main > div > section.last-news > div > div > button, .fa-caret-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+    margin-left: 10px;
+}
+
+body > main > div > section.last-news > div > div > p {
+    font-weight: 100;
+    font-size: 13px;
+    margin-left: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+body > main > div > section.last-news > div > div > button {
+    text-align: center;
+    margin: auto;
+}
+
+/* Our team */
+
+.our-team {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.our-team h2 {
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.our-team img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 150px;
+}
+
+.our-team h4 {
+    padding-top: 15px;
+}
+
+.our-team span {
+    font-weight: 100;
+}
+
+/* Carousel base class */
+
+.carousel {
+    height: 500px;
+    margin-bottom: 60px;
+}
+
+/* Since positioning the image, we need to help out the caption */
+
+.carousel-caption {
+    z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+
+.carousel .item {
+    height: 500px;
+    background-color: #777;
+}
+
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+}
+
+/* Content */
+
+
+/* Footer */
+
+footer {
+    background: #5c544f;
+    color: #b5b5b5;
+    padding: 50px 0;
+}
+
+footer .row > div {
+    padding: 30px 0;
+    border-left: 1px solid #7d7773;
+    height: 150px;
+    text-align: center;
+}
+
+footer .row > div:first-child {
+    border-left: 0;
+}
+
+body > footer > div > div > div:nth-child(2) > i {
+    font-size: 40px;
+}
+
+
+body > footer > div > div > div:nth-child(3) > i {
+    font-size: 40px;
+}
+
+body > footer > div > div > div:nth-child(4) > i {
+    font-size: 40px;
+}
